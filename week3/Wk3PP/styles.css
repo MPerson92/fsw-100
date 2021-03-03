@@ -1,0 +1,9 @@
+header {
+    color: blue;
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+table, th, td, tr {
+    border: 2px solid black
+}
