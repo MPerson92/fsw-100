@@ -7,3 +7,12 @@ header {
 table, th, td, tr {
     border: 2px solid black
 }
+
+aside {
+    width: 50%;
+    padding-left: 15px;
+    margin-left: 25px;
+    float: right;
+    font-style: italic;
+    background-color: lightcyan;
+}
