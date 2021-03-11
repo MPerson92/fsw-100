@@ -1,4 +1,42 @@
 nav {
     position: fixed;
+    top: 0px;
     background-color: orangered;
+    width: 100%;
+}
+
+header {
+    color: limegreen;
+    text-decoration: underline;
+    font-family: 'Fascinate', cursive;
+    padding-top: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+ul {
+    font-size: 30px;
+    padding-top: 0px;
+}
+table, th, td, tr {
+    border: 2px solid black;
+    
+}
+th {
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 30px;
+}
+
+aside {
+    font-family: 'Akaya Kanadaka', cursive;
+    color: white;
+    width: 70%;
+    font-size: 20px;
+    margin-right: 0px;
+    padding-left: 0px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    float: right;
+    font-style: italic;
+    background-color: orange;
 }
