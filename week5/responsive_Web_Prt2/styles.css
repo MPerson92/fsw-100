@@ -1,0 +1,75 @@
+.gridmother {
+    display: grid;
+    margin: 50px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 150px;
+    gap: 10px;
+}
+
+.gridchild1 {
+    background-color: red; 
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+}
+
+.gridchild2 {
+    background-color: blue;
+    grid-column: 3 / 5;
+    grid-row: 1 / 2;
+}
+
+.gridchild3 {
+    background-color: green;
+    grid-column: 1 / 2 ;
+    grid-row: 2 / 3 ;
+}
+
+.gridchild4 {
+    background-color: purple;
+    grid-column: 2 / 5;
+    grid-row: 2 / 3;
+}
+
+.gridchild5 {
+    background-color: yellow;
+    grid-column: 1 / 5;
+    grid-row: 3 / 4;
+}
+
+.gridfather {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(8, 100px);
+    gap: 25px;
+    margin: 100px;
+}
+
+.gridkid1 {
+    background-color: red;
+    grid-column: 1 / 5;
+    grid-row: 1 / 3;
+}
+
+.gridkid2 {
+    background-color: blue;
+    grid-column: 1 / 3;
+    grid-row: 3 / 8;
+}
+
+.gridkid3 {
+    background-color: green;
+    grid-column: 3 / 5;
+    grid-row: 3 / 5;
+}
+
+.gridkid4 {
+    background-color: purple;
+    grid-column: 3 / 4;
+    grid-row: 5 / 8;
+}
+
+.gridkid5 {
+    background-color: purple;
+    grid-column: 4 / 5;
+    grid-row: 5 / 8;
+}
