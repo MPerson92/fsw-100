@@ -1,0 +1,106 @@
+h1 {
+    color: sandybrown;
+    text-decoration: underline;
+    text-align: center;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+}
+
+#box1:hover {
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    border: 40px solid black;
+    padding: 50px;
+    margin: 20px;
+}
+
+#box1 {
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    margin: 70px;
+}
+
+#box2:hover {
+    background-color: blue;
+    width: 90px;
+    height: 70px;
+    border: 40px solid black;
+    margin: 70px;
+    padding: 20px;
+}
+#box2 {
+    background-color: cadetblue;
+    width: 100px;
+    height: 100px;
+    margin: 70px;
+}
+
+#box3:hover {
+    background-color: green;
+    width: 150px;
+    height: 200px;
+    border: 40px solid black;
+    margin: 50px;
+    opacity: 0.75;
+    padding: 20px;
+}
+#box3 {
+    background-color: chartreuse;
+    width: 100px;
+    height: 100px;
+    margin: 70px;
+}
+
+#box4:hover {
+    background-color: orange;
+    width: 100px;
+    height: 300px;
+    border: 40px solid black;
+    margin: 20px;
+    opacity: 0.75;
+    padding: 20px;
+}
+
+#box4 {
+    background-color: coral;
+    width: 100px;
+    height: 100px;
+    margin: 70px;
+}
+
+#box5:hover {
+    background-color: purple;
+    width: 200px;
+    height: 200px;
+    border: 40px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+#box5 {
+    background-color: mediumpurple;
+    width: 100px;
+    height: 100px;
+    margin: 70px;
+}
+
+#box6:hover {
+    background-color: teal;
+    width: 100px;
+    height: 100px;
+    border: 10px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+#box6 {
+    background-color: mediumturquoise;
+    width: 100px;
+    height: 100px;
+    margin: 70px;
+}
