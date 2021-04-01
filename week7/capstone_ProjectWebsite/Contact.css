@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+
+/* body {
+    background-image: url('./capstone_Images/anime.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-auto-rows: 100px;
+    gap: 20px;
+}
+
+#flex-container {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 30px 5%;
+    grid-column: 1 / 10;
+    grid-row: 1 / 2;
+    background-color: rgba(255, 0, 0, 0.4);
+    font-family: 'New Tegomin', serif;
+}
+
+.nav_links, a {
+    display: inline-block;
+    background-color: rgba(255, 166, 0, 0.671);
+    padding: 0px 30px;
+    transition: all 0.3s ease 0s;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav_links, a:hover{
+    color: rgb(0, 174, 255);
+}
+
+h1 {
+    color: rgb(57, 217, 245);
+    grid-column: 1 / 10;
+    grid-row: 2 / 3;
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'New Tegomin', serif;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.Content {
+    grid-column: 3 / 9;
+    grid-row: 2 / 7;
+    font-size: 50px;
+    color: rgb(57, 217, 245);
+    font-family: 'New Tegomin', serif;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: rgba(255, 0, 0, 0.3);
+    color:orange;     
+    grid-column: 1 / 10;
+    grid-row: 10 / 12; 
+    font-family: 'New Tegomin', serif;
+    font-size: 30px;
+} */
+
+/* mobile */
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-image: url('./capstone_Images/anime.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    
+    
+    
+    #grid-container {
+        display: grid;
+        grid-template-columns: repeat(9, 1fr);
+        grid-auto-rows: 100px;
+        gap: 20px;
+    }
+    
+    #flex-container {
+        display: flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 30px 5%;
+        grid-column: 1 / 10;
+        grid-row: 1 / 2;
+        background-color: rgba(255, 0, 0, 0.4);
+        font-family: 'New Tegomin', serif;
+    }
+    
+    .nav_links, a {
+        display: inline-block;
+        background-color: rgba(255, 166, 0, 0.671);
+        padding: 0px 30px;
+        transition: all 0.3s ease 0s;
+        font-weight: 500;
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+        list-style: none;
+    }
+    
+    .nav_links, a:hover{
+        color: rgb(0, 174, 255);
+    }
+    
+    h1 {
+        color: rgb(57, 217, 245);
+        grid-column: 1 / 10;
+        grid-row: 2 / 3;
+        text-decoration: underline;
+        text-align: center;
+        font-family: 'New Tegomin', serif;
+    }
+    
+    h2 {
+        text-decoration: underline;
+    }
+    
+    .Content {
+        grid-column: 1 / 10;
+        grid-row: 3 / 7;
+        font-size: 22px;
+        color: rgb(57, 217, 245);
+        font-family: 'New Tegomin', serif;
+    }
+    
+    h2 {
+        text-decoration: underline;
+    }
+    
+    footer {
+        background-color: rgba(255, 0, 0, 0.3);
+        color:orange;     
+        grid-column: 1 / 10;
+        grid-row: 7 / 9; 
+        font-family: 'New Tegomin', serif;
+        font-size: 20px;
+    }
+}
+
+/* tablet */
+
+@media only screen and (min-width: 450px) {
+    body {
+        background-image: url('./capstone_Images/anime.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    
+    
+    
+    #grid-container {
+        display: grid;
+        grid-template-columns: repeat(9, 1fr);
+        grid-auto-rows: 100px;
+        gap: 20px;
+    }
+    
+    #flex-container {
+        display: flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 30px 5%;
+        grid-column: 1 / 10;
+        grid-row: 1 / 2;
+        background-color: rgba(255, 0, 0, 0.4);
+        font-family: 'New Tegomin', serif;
+    }
+    
+    .nav_links, a {
+        display: inline-block;
+        background-color: rgba(255, 166, 0, 0.671);
+        padding: 0px 30px;
+        transition: all 0.3s ease 0s;
+        font-weight: 500;
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+        list-style: none;
+    }
+    
+    .nav_links, a:hover{
+        color: rgb(255, 72, 0);
+    }
+    
+    h1 {
+        color: rgb(57, 217, 245);
+        grid-column: 1 / 10;
+        grid-row: 2 / 3;
+        font-size: 50px;
+        text-decoration: underline;
+        text-align: center;
+        font-family: 'New Tegomin', serif;
+    }
+    
+    h2 {
+        text-decoration: underline;
+    }
+    
+    .Content {
+        grid-column: 1 / 10;
+        grid-row: 3 / 7;
+        font-size: 40px;
+        color: rgb(57, 217, 245);
+        font-family: 'New Tegomin', serif;
+    }
+    
+    h2 {
+        text-decoration: underline;
+    }
+    
+    footer {
+        background-color: rgba(255, 0, 0, 0.3);
+        color:orange;     
+        grid-column: 1 / 10;
+        grid-row: 10 / 12; 
+        font-family: 'New Tegomin', serif;
+        font-size: 30px;
+    }
+}
+
+/* Desktop */
+
+@media only screen and (min-width: 1366px) {
+    body {
+        background-image: url('./capstone_Images/anime.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    
+    
+    
+    #grid-container {
+        display: grid;
+        grid-template-columns: repeat(9, 1fr);
+        grid-auto-rows: 100px;
+        gap: 20px;
+    }
+    
+    #flex-container {
+        display: flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 30px 5%;
+        grid-column: 1 / 10;
+        grid-row: 1 / 2;
+        background-color: rgba(255, 0, 0, 0.4);
+        font-family: 'New Tegomin', serif;
+    }
+    
+    .nav_links, a {
+        display: inline-block;
+        background-color: rgba(255, 166, 0, 0.671);
+        padding: 0px 30px;
+        transition: all 0.3s ease 0s;
+        font-weight: 500;
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+        list-style: none;
+    }
+    
+    .nav_links, a:hover{
+        color: rgb(0, 174, 255);
+    }
+    
+    h1 {
+        color: rgb(57, 217, 245);
+        grid-column: 1 / 10;
+        grid-row: 2 / 3;
+        font-size: 60px;
+        text-decoration: underline;
+        text-align: center;
+        font-family: 'New Tegomin', serif;
+    }
+    
+    h2 {
+        text-decoration: underline;
+    }
+    
+    .Content {
+        grid-column: 1 / 10;
+        grid-row: 3 / 7;
+        font-size: 50px;
+        color: rgb(57, 217, 245);
+        font-family: 'New Tegomin', serif;
+    }
+    
+    h2 {
+        text-decoration: underline;
+    }
+    
+    footer {
+        background-color: rgba(255, 0, 0, 0.3);
+        color:orange;     
+        grid-column: 1 / 10;
+        grid-row: 10 / 12; 
+        font-family: 'New Tegomin', serif;
+        font-size: 30px;
+    }
+}
+
