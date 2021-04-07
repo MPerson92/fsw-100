@@ -141,7 +141,8 @@ main {
     
     #flex-container {
         display: flex;
-        justify-content: space-between;
+        align-items: center;
+        justify-content: center;
         box-sizing: border-box;
         margin: 0;
         padding: 30px 5%;
@@ -150,12 +151,19 @@ main {
         background-color: rgba(255, 0, 0, 0.4);
         font-family: 'New Tegomin', serif;
     }
+
+    nav {
+        grid-column:  1 / 10;
+        grid-row: 1 / 2 ;
+    }
     
     .nav_links, a {
         display: inline-block;
         background-color: rgba(255, 166, 0, 0.671);
-        padding: 1px;
-        align-items: flex-start;
+        padding: 10px;
+        grid-column: 1 / 10;
+        grid-row: 1 / 2;
+        align-items: center;
         transition: all 0.3s ease 0s;
         font-size: 20px;
         color: white;
@@ -166,6 +174,7 @@ main {
     .nav_links, a:hover{
         color: yellow;
     }
+
     h1 {
         color: white;
         font-size: 145%;
@@ -178,8 +187,23 @@ main {
 
     img {
         grid-column: 1 / 7;
-        grid-row: 12 / 13;
+        grid-row: 13 / 14;
+        
      }
+
+     #goku {
+        grid-column: 1 / 5;
+        grid-row: 15 / 16;
+        width: 170px;
+        height: 170px;
+    }
+
+    #naruto {
+        grid-column: 7 / 10;
+        grid-row: 15 / 16;
+        width: 150px;
+        height: 150px;
+    }
     
     article {
         font-family: 'New Tegomin', serif;
@@ -218,7 +242,7 @@ main {
     
     main {
         grid-column: 1 / 10;
-        grid-row: 15 / 16;
+        grid-row: 19 / 20;
         color: lightblue;
         font-family: 'New Tegomin', serif;
         font-size: 20px;
@@ -229,7 +253,7 @@ main {
         background-color: rgba(252, 156, 46, 0.61);
         border: 3px solid orange;
         grid-column: 1 / 10 ;
-        grid-row: 14 / 15;
+        grid-row: 17 / 19;
     }
 
      tr, th {
@@ -252,7 +276,7 @@ main {
      footer {
          color:greenyellow;     
          grid-column: 1 / 10;
-         grid-row: 24 / 25; 
+         grid-row: 30 / 31; 
         font-family: 'New Tegomin', serif;
         font-size: 30px;
     }
@@ -282,16 +306,20 @@ main {
         box-sizing: border-box;
         margin: 0;
         padding: 30px 5%;
-        grid-column: 1 / 10;
+        grid-column: 1 / -1;
         grid-row: 1 / 2;
         background-color: rgba(255, 0, 0, 0.4);
         font-family: 'New Tegomin', serif;
+    }
+    nav {
+        grid-column: 1 / -1;
+        grid: 1 / 2;
     }
     
     .nav_links, a {
         display: inline-block;
         background-color: rgba(255, 166, 0, 0.671);
-        padding: 1px;
+        padding: 10px;
         align-items: flex-start;
         transition: all 0.3s ease 0s;
         font-size: 20px;
@@ -349,10 +377,29 @@ main {
     
     main {
         grid-column: 1 / 10;
-        grid-row: 18 / 21;
+        grid-row: 19 / 21;
         color: lightblue;
         font-family: 'New Tegomin', serif;
         font-size: 20px;
+    }
+
+    img {
+        grid-column: 4 / 5;
+        grid-row: 4 / 5;
+    }
+
+    #goku {
+        grid-column: 5 / 6;
+        grid-row: 8 / 9;
+        width: 150px;
+        height: 300px;
+    }
+
+    #naruto {
+        grid-column: 6 / 7;
+        grid-row: 8 / 9;
+        width: 200px;
+        height: 300px;
     }
     
     .power {
@@ -360,7 +407,7 @@ main {
         background-color: rgba(252, 156, 46, 0.61);
         border: 3px solid orange;
         grid-column: 1 / 10;
-        grid-row: 17 / 18;
+        grid-row: 17 / 19;
     }
 
      tr, th {
@@ -383,7 +430,7 @@ main {
      footer {
          color:rgb(209, 12, 209);     
          grid-column: 1 / 10;
-         grid-row: 28 / 29; 
+         grid-row: 29 / 30; 
         font-family: 'New Tegomin', serif;
         font-size: 30px;
     }
@@ -484,15 +531,25 @@ main {
         grid-row: 9 / 10;
      }
 
+     #goku {
+         grid-column: 4 / 6;
+         grid-row: 11 / 12
+     }
+
+     #naruto {
+         grid-column: 7 / 8;
+         grid-row: 11 / 12;
+     }
+
     main {
         grid-column: 1 /10;
-        grid-row: 13 / 14;
+        grid-row: 16 / 17;
         width: 100%;
     }
     
     .power {
         grid-column: 1 / 10;
-        grid-row: 12 / 13;
+        grid-row: 15 / 16;
         color: black;
         background-color: rgba(252, 156, 46, 0.61);
         border: 3px solid orange;
@@ -518,7 +575,7 @@ main {
      footer {
          color:greenyellow;     
          grid-column: 1 / 10;
-         grid-row: 20 / 21; 
+         grid-row: 23 / 24; 
         font-family: 'New Tegomin', serif;
         font-size: 30px;
      }
